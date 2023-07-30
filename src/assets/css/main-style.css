@@ -1,0 +1,40 @@
+:root {
+    /* Primaries colors */
+    --primary-color:#61dafb;
+    --secundary-color: #037595;
+    --three-color: #069DC7;
+    --accent-red: #FF5252;
+    
+    
+    /* Shade colors */
+    --gray-color-1: #cccccc;
+
+    /* Helps colors */
+    --danger-color: #FF5252;
+    --warning-color: #FFB300;
+    --gray-color: #ccc;
+    --gray-color-2: #444;
+    --gray-color-3: #7c7c7c;
+    --succes-color: green;
+    --black-color: black;
+    --white-gray: #f7f7f7;
+    --white-gray-2: #ececec;
+    --trasparent-gray: #00000033;
+    /* Fonts of my page */
+    --font-primary: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    --box-shadown: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 hsla(0, 0%, 0%, 0.188);
+    --box-shadown-hover: 8px 5px 5px var(--gray-color);
+}
+
+body {
+    overflow-x: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* Fuentes */
+    font-family: var(--font-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
